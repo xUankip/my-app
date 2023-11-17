@@ -1,6 +1,4 @@
-
 import './App.css';
-
 function withStyle(Component){
   return (props) => {
     const style = {
