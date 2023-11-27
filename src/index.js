@@ -10,12 +10,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import App3 from './App3';
 import ClickMe from './App4.1';
+import MyButton from '../src/SS4/MyButton'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <ClickMe />
+    {/* <ClickMe /> */}
+    <MyButton />
   </React.StrictMode>
 );
 
