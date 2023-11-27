@@ -41,16 +41,16 @@ const planContents = [
 
 const Plan = props => {
   return (
-    <div className="card mb-4 shadow-sm col-4">
+    <div className="card mb-4 shadow-sm">
       <div className="card-header">
-        <h4 className="my-0 font-weight-normal">
+        <h4 className="my-0 font-weight-normal mb-4 rounded-3">
           {props.header}
         </h4>
       </div>
       <div className="card-body">
         <h1 className="card-title pricing-card-title">
           {`$${props.price}`}
-          <small className="text-muted ">
+          <small className="text-muted">
             / mo
           </small>
         </h1>
@@ -89,7 +89,7 @@ const Plans = () => {
   });
 
   return (
-    <div className="card-deck mb-3 text-center row">
+    <div className="card-deck mb-4 text-cente row">
       {plans}
     </div>
   );

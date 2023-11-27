@@ -3,14 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App2 from './App2';
+import $ from 'jquery';
+import Popper from 'popper.js';
+// import App2 from './App2';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import App3 from './App3';
+import ClickMe from './App4.1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <App2 />
-
+    {/* <App /> */}
+    <ClickMe />
   </React.StrictMode>
 );
 
