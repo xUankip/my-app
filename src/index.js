@@ -11,13 +11,22 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import App3 from './App3';
 import ClickMe from './App4.1';
 import MyButton from '../src/SS4/MyButton'
+import MyButton1 from '../src/SS4/MyButton1'
+import MyButton2 from '../src/SS4/MyButton2'
+import MyButton4 from '../src/SS4/MyButton4'
+import './XO game/xo.css'
+import Game from './XO game/XO';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <ClickMe /> */}
-    <MyButton />
+    {/* <MyButton />
+    <MyButton1 />
+    <MyButton2 />
+    <MyButton4 /> */}
+    <Game />
   </React.StrictMode>
 );
 
